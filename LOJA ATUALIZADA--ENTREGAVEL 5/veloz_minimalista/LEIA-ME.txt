@@ -1,0 +1,17 @@
+VELOZ — SITE DE LOCAÇÃO DE VEÍCULOS (DEMONSTRAÇÃO)
+
+COMO ABRIR
+1. Extraia o arquivo ZIP.
+2. Abra a pasta veloz_minimalista.
+3. Dê dois cliques em index.html ou abra-o no Chrome/Edge.
+
+ARQUIVOS
+- index.html: conteúdo e estrutura
+- style.css: identidade visual minimalista e responsividade
+- script.js: catálogo, filtros, detalhes, datas e cálculo da solicitação
+
+OBSERVAÇÕES IMPORTANTES
+- As imagens são carregadas de URLs externas (Unsplash) e as fontes do Google Fonts; conexão com a internet é necessária para exibi-las.
+- Os veículos, preços, telefone e contato são fictícios.
+- O formulário gera uma confirmação demonstrativa somente no navegador. Não envia dados, não cria reserva real e não efetua pagamentos.
+- Para uso comercial, será necessário implementar backend, banco de dados, autenticação, controle de disponibilidade, segurança, política de privacidade e integrações reais.

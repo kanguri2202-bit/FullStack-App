@@ -39,3 +39,13 @@ O AWS Amplify Hosting publica o frontend estático, mas não executa este servid
 - `localhost` só é acessível na própria máquina. A entrega deve usar uma URL pública da AWS.
 - Para produção com vários servidores/instâncias, prefira RDS em vez de SQLite local.
 - O cadastro de cliente e os dados pessoais devem ser usados apenas em ambiente acadêmico/demonstração com dados fictícios até implementar política de privacidade, controle operacional e medidas LGPD.
+
+EVIDÊNCIAS:
+
+-<img width="1907" height="947" alt="Captura de tela 2026-11-19 182821" src="https://github.com/user-attachments/assets/8b0c6ac3-aab8-4e61-bb03-570bf4bd8cd5" />
+
+-<img width="1901" height="961" alt="Captura de tela 2026-11-19 182837" src="https://github.com/user-attachments/assets/f3747c1a-135f-4d4c-8917-c34621835d83" />
+
+-<img width="1896" height="956" alt="Captura de tela 2026-11-19 182849" src="https://github.com/user-attachments/assets/2be82789-aaf4-4bc7-b126-dd08fb2c1003" />
+
+-<img width="1897" height="951" alt="Captura de tela 2026-11-19 182902" src="https://github.com/user-attachments/assets/ccc7cc7e-7f5e-486a-9804-91277ccd32be" />

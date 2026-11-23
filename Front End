@@ -1,0 +1,1 @@
+O front-end do projeto Veloz foi desenvolvido utilizando HTML, CSS e JavaScript, responsáveis pela estrutura, aparência e interatividade do site. Já o back-end utiliza o Supabase para gerenciar o banco de dados e a autenticação dos usuários. Por fim, utilizamos o AWS Amplify para hospedar e disponibilizar o site na internet.

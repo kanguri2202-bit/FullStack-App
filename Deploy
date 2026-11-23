@@ -1,0 +1,19 @@
+Deploy e Hospedagem
+
+O deploy do projeto Veloz foi realizado utilizando o AWS Amplify, serviço de computação em nuvem da Amazon Web Services (AWS).
+
+A plataforma foi responsável por publicar e disponibilizar o front-end do sistema na internet, permitindo que os usuários acessem o site por meio de um link público.
+
+O back-end utiliza o Supabase, responsável pelo banco de dados, autenticação e gerenciamento das informações do sistema.
+
+Após a publicação, foram realizados testes para verificar o funcionamento do site e de suas principais funcionalidades.
+
+Link do site publicado:
+https://main.d2j7othne6cqos.amplifyapp.com/
+
+Tecnologias utilizadas:
+
+* GitHub: armazenamento e versionamento do código-fonte.
+* AWS Amplify: deploy e hospedagem em nuvem.
+* Supabase: serviços de back-end e banco de dados.
+* HTML, CSS e JavaScript: desenvolvimento do front-end.

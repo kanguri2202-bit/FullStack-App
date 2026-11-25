@@ -141,9 +141,11 @@ Para testar o site publicado: `VELOZ_URL=https://main.d1z6yy2vi5t54z.amplifyapp.
 <img width="1917" height="1071" alt="trello--cartão" src="https://github.com/user-attachments/assets/4ca0b17e-cba8-4a08-8dbb-32c5e59255ba" />
 
 -membros:
-<img width="1917" height="1078" alt="trello--membros" src="https://github.com/user-attachments/assets/0618cd11-40e0-4126-9531-1cd9d1e7a3cc" />
+
+<img width="1896" height="962" alt="membros" src="https://github.com/user-attachments/assets/8bb29348-5958-4ce5-9513-2ec91fb8053b" />
 
 -Quadro no Trello:
+
 <img width="1915" height="1078" alt="trello--quadro" src="https://github.com/user-attachments/assets/6a3bbe33-05b9-4b56-9042-2b32e53287b8" />
 
 

@@ -149,6 +149,3 @@ Para testar o site publicado: `VELOZ_URL=https://main.d1z6yy2vi5t54z.amplifyapp.
 
 
 
-- O formulário de reserva é aberto ao público, por isso aceita envios de qualquer pessoa. Um captcha reduziria reservas falsas.
-
-## 5. Créditos

@@ -53,7 +53,7 @@ prints/          Capturas de tela usadas como evidência
 | # | Ambiente | Ferramenta | Responsável | Pasta |
 |---|---|---|---|---|
 | 1 | Gestão de tarefas | Trello | João Victor | `01_gestao/` |
-| 2 | Design de interfaces | Figma | [PREENCHER] | `02_design/` |
+| 2 | Design de interfaces | Figma | Vinicius Lobo | `02_design/` |
 | 3 | Desenvolvimento | Visual Studio Code | João Victor e Vinicius Lobo | `03_desenvolvimento/` |
 | 4 | Gestão de banco de dados | Supabase | João Victor e Vinicius Lobo | `04_banco/` |
 | 5 | Testes | Selenium | Vinicius Lobo | `05_testes/` |

@@ -66,25 +66,14 @@ Os ambientes 3, 4 e 6 aproveitam o projeto da locadora; os ambientes 1, 2 e 5 fo
 ### 2.1 Gestão de tarefas — Trello
 **Como foi usado:** criamos o quadro "Veloz — Locadora" com três listas (**A fazer**, **Em andamento** e **Concluído**). As tarefas do projeto viraram **20 cartões**, com descrição, checklist e etiquetas por assunto (frontend, banco, auth, testes...). Cada cartão foi atribuído ao membro responsável, e o filtro por membro permitiu ver as tarefas de cada um. O backlog completo está em `01_gestao/backlog_veloz.csv`.
 
-**Evidências:**
-![Quadro do Trello com as três listas](prints/req1_trello_quadro.png)
-![Quadro filtrado por João Victor](prints/req1_trello_filtro_joao.png)
-![Quadro filtrado por Vinicius Lobo](prints/req1_trello_filtro_vinicius.png)
-![Cartão aberto com responsável, etiqueta e checklist](prints/req1_trello_cartao.png)
 
 ### 2.2 Design de interfaces — Figma
-**Como foi usado:** importamos 3 telas em SVG (home, frota e painel do vendedor no celular), criamos estilos de cor e de texto com os valores do site (`02_design/design_tokens.md`) e transformamos o cartão de veículo e os botões em componentes. Também montamos um protótipo clicável do fluxo de reserva. [PREENCHER: a tela nova que desenharam]
+**Como foi usado:** importamos 3 telas em SVG (home, frota e painel do vendedor no celular), criamos estilos de cor e de texto com os valores do site (`02_design/design_tokens.md`) e transformamos o cartão de veículo e os botões em componentes. Também montamos um protótipo clicável do fluxo de reserva. 
 
-**Evidências:**
-![Telas importadas no Figma](prints/req2_figma_telas.png)
-![Estilos e componentes criados no Figma](prints/req2_figma_componentes.png)
 
 ### 2.3 Desenvolvimento — Visual Studio Code
 **Como foi usado:** o site foi desenvolvido no VS Code, com a pasta `.vscode/` compartilhada (extensões recomendadas, formatação ao salvar, Live Server na porta 3000, depurador no Chrome e tarefas para o servidor e os testes). Detalhes em `03_desenvolvimento/README.md`.
 
-**Evidências:**
-![VS Code com a estrutura do projeto](prints/req3_vscode_projeto.png)
-![Live Server rodando e o site em localhost:3000](prints/req3_vscode_livereload.png)
 
 ### 2.4 Gestão de banco de dados — Supabase
 **Como foi usado:** o Supabase é o banco (Postgres) e o serviço de autenticação do site. Usamos o **Table Editor** para ver e editar os dados, o **SQL Editor** para criar a estrutura e rodar consultas, **Authentication** para os usuários, **Policies** para a segurança e **Logs** para acompanhar as requisições.
@@ -98,10 +87,6 @@ Os ambientes 3, 4 e 6 aproveitam o projeto da locadora; os ambientes 1, 2 e 5 fo
 
 **Segurança (RLS):** 9 políticas. Visitante só cria reservas; cliente lê só as suas; vendedor lê as reservas, muda o status e gerencia só os seus clientes. Ninguém altera a própria `role` pelo site, e a promoção a vendedor é feita só no SQL Editor. Quadro completo e diagrama ER em `04_banco/er_diagrama.md`. Scripts em `04_banco/` (`supabase_setup.sql`, `seed_demo.sql` e `limpar_demo.sql`).
 
-**Evidências:**
-![Table Editor com as três tabelas](prints/req4_supabase_tabelas.png)
-![Consulta no SQL Editor com o resultado](prints/req4_supabase_consulta.png)
-![Usuários e políticas de segurança](prints/req4_supabase_usuarios_policies.png)
 
 ### 2.5 Testes — Selenium
 **Como foi usado:** testes automáticos (Selenium + pytest) abrem o site num navegador e simulam o usuário. São **16 verificações** em `05_testes/test_veloz.py`: catálogo, busca, filtros, ordenação, reserva (CPF inválido, datas), cadastro, login, área do vendedor e menu do celular. Os testes não gravam nada no banco.
@@ -114,16 +99,10 @@ pytest
 Para testar o site publicado: `VELOZ_URL=https://main.d1z6yy2vi5t54z.amplifyapp.com/ pytest`. Para ver o navegador: `HEADLESS=0 pytest`.
 
 **Evidências:**
-![Testes passando no terminal](prints/req5_selenium_passando.png)
-![Teste falhando de propósito, para provar que ele verifica algo](prints/req5_selenium_falha.png)
 
 ### 2.6 Execução e servidores web — servidor local e AWS Amplify
 **Como foi usado:** o site roda em **três ambientes**. No servidor local, para desenvolver e testar. Na **AWS Amplify**, que hospeda o site na internet. E no **Supabase**, que responde às chamadas de autenticação e banco feitas pelo navegador. Para o link de confirmação de e-mail funcionar, o endereço da Amplify foi cadastrado no Supabase (*Authentication → URL Configuration*). Detalhes em `06_servidor/README.md`.
 
-**Evidências:**
-![Site rodando em localhost:3000](prints/req6_localhost.png)
-![Console da Amplify com o deploy concluído](prints/req6_amplify_deploy.png)
-![Logs de build da Amplify](prints/req6_amplify_logs.png)
 
 ---
 

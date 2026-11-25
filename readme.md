@@ -148,6 +148,9 @@ Para testar o site publicado: `VELOZ_URL=https://main.d1z6yy2vi5t54z.amplifyapp.
 
 <img width="1915" height="1078" alt="trello--quadro" src="https://github.com/user-attachments/assets/6a3bbe33-05b9-4b56-9042-2b32e53287b8" />
 
+-Nuvem (AMPLIFY):
+
+<img width="1600" height="827" alt="nuvem aws" src="https://github.com/user-attachments/assets/1f104bb3-c6ed-4c1c-952c-5ac9bbf0e366" />
 
 
 
